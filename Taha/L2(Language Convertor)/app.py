@@ -208,7 +208,7 @@ with col2:
 
 with col3:
     to_lang = st.selectbox("To", languages, key="to_lang")
-st.title("LangChain Language Convertor with Google Generative AI")
+st.title("LangChain Language Converter with Google Generative AI")
 input = st.text_input("Enter your text")
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-pro",
